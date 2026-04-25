@@ -16,15 +16,9 @@ export default function Navbar() {
     <AppBar position="sticky" color="inherit" elevation={0} sx={{ borderBottom: '1px solid', borderColor: 'divider', bgcolor: 'white' }}>
       <Toolbar sx={{ maxWidth: 1200, width: '100%', mx: 'auto', px: { xs: 2, md: 3 } }}>
 
-        <Typography variant="h6" fontWeight={700} color="primary" sx={{ cursor: 'pointer', mr: 4, fontSize: 22 }} onClick={() => navigate('/')}>
-          🍔 FoodHub
-        </Typography>
+        
 
-        <Box sx={{ display: { xs: 'none', md: 'flex' }, gap: 1, flex: 1 }}>
-          {[{ label: 'Restaurants', path: '/restaurants' }, { label: 'Events', path: '/events' }, { label: 'My Orders', path: '/orders' }, { label: 'Bookings', path: '/bookings' }].map(l => (
-            <Button key={l.path} component={Link} to={l.path} sx={{ color: 'text.secondary', fontWeight: 500 }}>{l.label}</Button>
-          ))}
-        </Box>
+        
 
         <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5, ml: 'auto' }}>
           <IconButton onClick={() => navigate('/cart')} color="primary" sx={{ bgcolor: 'rgba(232,57,42,0.06)' }}>
@@ -45,8 +39,6 @@ export default function Navbar() {
             </>
           ) : (
             <>
-              <Button variant="outlined" color="primary" onClick={() => navigate('/login')}>Login</Button>
-              <Button variant="contained" color="primary" onClick={() => navigate('/register')}>Sign Up</Button>
             </>
           )}
         </Box>
