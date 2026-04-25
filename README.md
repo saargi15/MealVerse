@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FoodHub Frontend — React + TypeScript + Material UI
 
 ## Setup & Run
@@ -38,3 +39,24 @@ src/
 - Works with demo data even when backend is offline
 - Connect real backend by setting proxy in vite.config.ts
 - Backend runs on http://localhost:5000
+=======
+# MealVerse
+
+Integrated Food Delivery and Dine-Out Platform
+
+## Features
+- Restaurant discovery
+- Table booking
+- Food ordering
+- Geo-based search
+
+## Tech Stack
+- React
+- Node.js
+- MongoDB
+
+## Team Members
+- I – Backend & Geospatial
+- Member 2 – Frontend
+- Member 3 – APIs & Integration
+>>>>>>> 682dc30bafded5ab2540d64b1aeda7f0f5935a70
