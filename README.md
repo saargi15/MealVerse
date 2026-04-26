@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# FoodHub Frontend — React + TypeScript + Material UI
+# MealVerse — React + TypeScript + Material UI
 
 ## Setup & Run
 
